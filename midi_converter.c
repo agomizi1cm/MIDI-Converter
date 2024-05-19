@@ -532,9 +532,7 @@ int main() {
         printf("アウトプットファイルを開きました\n");
     }
 
-    // トラック2つ分のデルタタイムを格納する.
-    int now_deltatime[2] = {0, 0};
-    int next_deltatime[2] = {0, 0};
+    
 
     // 元のファイルの名前をコメントで書き込む.
     fprintf(midi_out, "// 元のファイル名: %s\n", file_name);
